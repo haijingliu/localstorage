@@ -1,0 +1,182 @@
+
+/**
+ * form
+ */
+
+form { margin-bottom:1em; }
+
+input,
+textarea { 
+    display:block; 
+    margin:.25em 0; 
+    width:90%;
+    border:1px solid #ccc;
+    box-shadow:inset 1px 1px 50px 1px rgba(200,0.6);	
+    border-radius:3px;
+    padding:.25em;
+    background:#fff;
+}
+
+textarea { 
+    height:50px;
+    resize: vertical; 
+    }
+
+button {
+    margin:.5em 0 0 auto;
+    
+}
+
+
+
+/**
+ * articles
+ */
+
+article {
+    margin:1em 0;
+    padding:1em 0;
+    border-top:1px dashed #cccccc;
+    
+    border-bottom :1px dashed #cccccc;
+}
+
+.home article {
+    float:left;
+    width:44%; margin-right:5%;
+}
+
+article:hover {
+    background:#cccccc;
+}
+    
+    
+h2 { margin-bottom:.25em; }
+p { margin-top:.25em; }
+
+
+
+
+
+/**
+ * Global
+ */
+
+html,
+button,
+input,
+select,
+
+#banner{
+	height:30px;
+	width:auto;
+	background-color:#d20000;
+	display:inherit;
+}
+
+#banner h1{
+
+	font-family: 'Source Code Pro', sans-serif;
+	font-size:16pt;
+    margin:1.2px 0px 0px 100px;
+	display:inline block;
+	float:left;
+	color:#f1f1f1;
+	}
+
+#banner h2 {
+	font-family: 'Source Code Pro', sans-serif;
+	font-size:8pt;
+	letter-spacing:1px; 
+    margin:10px 20px inherit;
+	float:left;
+	color:#f1f1f1;
+}
+
+
+
+textarea {
+    color: #222;
+}
+
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    background:#e7e7e7;
+}
+
+.container {
+    margin:1em auto;
+    padding:1em;
+    width:768px;
+    background:#eee;
+    
+    display:inherit;
+}
+
+
+
+.icons img {
+	margin: 0.3em;
+	width: 70px;
+	height: 70px;
+	float: left;
+	display: inline-block;
+	position: inherit;
+}
+
+
+@media only screen and (max-width: 550px) {
+
+    .container { 
+        width:100%; 
+        }
+
+}
+
+
+#footer{
+	height:40px;
+	width:auto;
+	background-color:#d20000;
+	display:block;
+	position:inherit;
+	}
+
+
+#footer h1{
+	font-family: 'Source Code Pro', sans-serif;
+	font-size: 12px;
+	padding: 22px;
+	margin:0 100px;
+	position: absolute;
+    float:left;
+	color: #fffff;
+}
+
+
+
+
+
+
+/**
+ * Clearfix
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+
